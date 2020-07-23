@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+<body>
+ 
+  <div>
+    <h2>Todo App</h2>
+  </div>
+<div class="input-group mb-3">
+  
+  <input type="text" id="todo-item" class="form-control" placeholder="Ener Todo" aria-label="Example text with button addon" aria-describedby="button-addon1" required>
+  <div class="input-group-prepend">
+
+    <button onclick=" addTodo()" class="btn btn-outline-secondary" type="button" id="button-addon1"> <i class="fa fa-plus-square-o" aria-hidden="true"></i> Add</button>
+    <button onclick="deleteAll()" class="btn btn-outline-secondary" type="button" id="button-addon1"> <i class="fa fa-trash-o" aria-hidden="true"></i> Delete All</button>
+  </div>
+</div>
+
+<div>
+    <ul id="list" class="list-group">
+       
+      </ul>
+</div>
+<hr>
+<div class="copyright"> 
+  Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2020 SMIT Syed Ahmed Ali
+</div>
+    <script src="app.js"></script>
+</body>
+</html>

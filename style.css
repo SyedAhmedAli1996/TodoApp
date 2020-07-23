@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'Ubuntu';
+src: url(Ubuntu-Regular.ttf);
+}
+* {
+    font-family: Ubuntu;
+}
+body{
+    background-image: url(images/spideriron.jpg);
+ 
+    font-weight: bold !important;
+    text-align: center !important;
+background-position:  center;
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:rgb(231, 225, 225) ;
+}
+h2{
+    color: rgb(231, 225, 225);
+}
+.list-group-item,.form-control{
+    background: transparent !important;
+    color: rgb(245, 245, 245) !important;
+}
+.form-control,.copyright{
+    color: white !important;
+}
+.btn
+{
+    color:whitesmoke !important;
+    font-weight: bold !important;
+    
+  
+}
+::-webkit-input-placeholder{
+    color: white !important;
+}
+
